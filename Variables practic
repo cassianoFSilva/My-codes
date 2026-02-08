@@ -1,0 +1,63 @@
+//simple values
+let name = "Bob";
+let age = "19";
+let city = "kanto";
+const favoritenumber = "12";
+
+console.log(name);
+console.log(age);
+console.log(city);
+console.log(favoritenumber);
+
+//change values old
+{
+    let a = 7;
+let b = 5;
+
+let value = a;
+a = b;
+b = value;
+
+console.log(a);
+console.log(b);
+}
+//change values better
+{
+let a = 7;
+let b = 5;
+
+[a, b] = [b, a];
+
+console.log(a);
+console.log(b);
+}
+
+//rectangle
+{
+let height = 40;
+let width = 67;
+
+let area = height * width;
+
+console.log("the area is " + area);
+
+let perimeter = 2 * (height + width);
+
+console.log("and the perimeter is " + perimeter);
+}
+
+//organized rectangle
+{
+let height = 57;
+let width = 90;
+
+let area = height * width;
+
+let perimeter = 2 * (height + width);
+
+console.log("width = " + width);
+console.log("height = " + height);
+console.log("area = " + area);
+console.log("perimeter = " + perimeter);
+}
+
